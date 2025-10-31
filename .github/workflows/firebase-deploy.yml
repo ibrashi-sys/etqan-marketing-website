@@ -25,3 +25,4 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           projectId: etqan-6973c
+          firebaseServiceAccount: 'firebase-deployer@etqan-6973c.iam.gserviceaccount.com'
