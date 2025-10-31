@@ -29,29 +29,22 @@ A modern, responsive, single-page marketing website for "Etqan for Research and 
         3.  Business Leadership and Strategic Development.
     *   A simple contact form is included.
 
-### Current State (After Firebase Setup)
+### Current State (After Automated Deployment Setup)
 
 *   **Infrastructure:**
     *   Configured for Firebase Hosting.
     *   `.firebaserc` file created to link to the `etqan-final` Firebase project.
     *   `firebase.json` file created to define the hosting configuration (public directory is set to the root folder).
+*   **Automated Deployment (CI/CD):**
+    *   **GitHub Actions Workflow:** A `.github/workflows/firebase-deploy.yml` file has been added to automate deployment.
+    *   **Trigger:** The workflow is triggered on every push to the `main` branch.
+    *   **Authentication:** The workflow uses Google Cloud's Workload Identity Federation to securely authenticate with Firebase without needing a long-lived service account key.
+        *   A Workload Identity Pool (`github-pool`) and Provider (`github-provider`) have been created in the Google Cloud project.
+        *   The `firebase-deployer` service account is configured to be impersonated by the GitHub Actions runner.
+    *   **Deployment:** The workflow checks out the code and uses the `FirebaseExtended/action-hosting-deploy` action to deploy the website to Firebase Hosting.
 
 ## Current Plan
 
-**Goal:** Manually deploy the website to Firebase Hosting.
+The website is now fully configured for automated deployments. Any changes pushed to the `main` branch on GitHub will be automatically deployed to the live Firebase Hosting URL: **https://etqan-6973c.web.app**
 
-**Steps:**
-The user has requested to perform the deployment steps manually. The following commands will be provided to the user.
-
-1.  **Install Firebase CLI:**
-    ```bash
-    npm install -g firebase-tools
-    ```
-2.  **Login to Firebase:**
-    ```bash
-    firebase login
-    ```
-3.  **Deploy the site:**
-    ```bash
-    firebase deploy --only hosting
-    ```
+There are no further steps planned. The CI/CD pipeline is complete.

@@ -37,3 +37,233 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project etqan-final. Please make sure the project exists and your account has permission to access it.
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:23.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:23.395Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[debug] [2025-10-31T17:49:23.408Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.409Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.410Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.413Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.414Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.417Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.418Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.418Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.419Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.419Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.422Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.422Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.422Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.423Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.423Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.425Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.426Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.426Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.426Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.426Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.428Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.428Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.428Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.429Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.429Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.431Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.431Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.431Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.432Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.432Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.434Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.434Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.434Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.435Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.435Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.449Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.450Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.450Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.453Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.453Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.458Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.461Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.461Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.462Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.463Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:23.473Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:23.474Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[debug] [2025-10-31T17:49:23.475Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.475Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.475Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.475Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.475Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.478Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.478Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.478Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.479Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.479Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.481Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.481Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.481Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.481Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.482Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.484Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.484Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.484Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.485Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.485Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.486Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.486Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.487Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.487Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.487Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.489Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.489Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.489Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.489Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.489Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.491Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.491Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.491Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.491Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.491Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.496Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.496Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.496Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.496Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.496Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.499Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.499Z] Checked if tokens are valid: false, expires at: 1761933769022
+[debug] [2025-10-31T17:49:23.499Z] > refreshing access token with scopes: []
+[debug] [2025-10-31T17:49:23.500Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-10-31T17:49:23.500Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.654Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.655Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.675Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.675Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.677Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.677Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.698Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.698Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.707Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.707Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.724Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.725Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.754Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.754Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.778Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.779Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.783Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.784Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.795Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.796Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.803Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.803Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.813Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com [none]
+[debug] [2025-10-31T17:49:23.813Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.820Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.820Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.833Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.833Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.848Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.848Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.862Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.863Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.874Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.874Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.885Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.886Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.895Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.895Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.909Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.909Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.923Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.923Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.934Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com [none]
+[debug] [2025-10-31T17:49:23.934Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.944Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:23.944Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:23.959Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-31T17:49:23.959Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:23.997Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.000Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.014Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.014Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.023Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.023Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.033Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.033Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.036Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.036Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.052Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.052Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.055Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.055Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.065Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.065Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.068Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.069Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.083Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.083Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.091Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-10-31T17:49:24.091Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-10-31T17:49:24.107Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-10-31T17:49:24.107Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/etqan-6973c
+[debug] [2025-10-31T17:49:24.541Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com 200
+[debug] [2025-10-31T17:49:24.543Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.564Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com 403
+[debug] [2025-10-31T17:49:24.564Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com [omitted]
+[debug] [2025-10-31T17:49:24.574Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-10-31T17:49:24.574Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.636Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com 200
+[debug] [2025-10-31T17:49:24.636Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.664Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com 200
+[debug] [2025-10-31T17:49:24.664Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseremoteconfig.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.682Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com 200
+[debug] [2025-10-31T17:49:24.682Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.715Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com 403
+[debug] [2025-10-31T17:49:24.715Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseio.com [omitted]
+[debug] [2025-10-31T17:49:24.717Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com 200
+[debug] [2025-10-31T17:49:24.717Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/fcm.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.793Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-31T17:49:24.793Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.811Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com 200
+[debug] [2025-10-31T17:49:24.811Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.828Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-31T17:49:24.828Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.856Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com 200
+[debug] [2025-10-31T17:49:24.857Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firestore.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.880Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-31T17:49:24.880Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.916Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-10-31T17:49:24.916Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.920Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-10-31T17:49:24.921Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.935Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com 200
+[debug] [2025-10-31T17:49:24.936Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/storage.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.967Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com 200
+[debug] [2025-10-31T17:49:24.970Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/identitytoolkit.googleapis.com [omitted]
+[debug] [2025-10-31T17:49:24.981Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com 200
+[debug] [2025-10-31T17:49:24.992Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/etqan-6973c/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.031Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.037Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.076Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.078Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.078Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.104Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.104Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-31T17:49:25.106Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:49:25.106Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
