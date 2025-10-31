@@ -1,0 +1,39 @@
+[debug] [2025-10-31T17:03:01.962Z] ----------------------------------------------------------------------
+[debug] [2025-10-31T17:03:01.965Z] Command:       /nix/store/qds3rzxwqrkvhzjxgcb95d2qx4sd9b1l-nodejs-20.11.1/bin/node /home/user/.global_modules/bin/firebase deploy --only hosting
+[debug] [2025-10-31T17:03:01.965Z] CLI Version:   14.23.0
+[debug] [2025-10-31T17:03:01.967Z] Platform:      linux
+[debug] [2025-10-31T17:03:01.967Z] Node Version:  v20.11.1
+[debug] [2025-10-31T17:03:01.967Z] Time:          Fri Oct 31 2025 17:03:01 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-10-31T17:03:01.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-31T17:03:02.623Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:02.624Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:02.628Z] >>> [apiv2][query] GET https://monospace-pa.googleapis.com/v1/workspaces/simple-64539538 [none]
+[debug] [2025-10-31T17:03:03.809Z] <<< [apiv2][status] GET https://monospace-pa.googleapis.com/v1/workspaces/simple-64539538 200
+[debug] [2025-10-31T17:03:03.810Z] <<< [apiv2][body] GET https://monospace-pa.googleapis.com/v1/workspaces/simple-64539538 {"workspaceId":"simple-64539538","name":"simple","workspaceRedirectUrl":"firebase-simple-1761861109413.cluster-kizalrzg35hz6u4i7pguwgt6ss.cloudworkstations.dev","status":"WORKSPACE_STATUS_RUNNING","lastAccessDatetime":"2025-10-31T15:00:51.376606Z","workspaceTemplate":"WORKSPACE_TEMPLATE_BLANK_WEB","owner":"SELF","serviceAccountEmail":"msp-6617635173465370041@monospace-4.iam.gserviceaccount.com","enableNix":true,"ownerEmail":"ibrashi@etqananalysis.com","workspaceImageUrl":"https://www.gstatic.com/monospace/231115/logo_html.svg","templateArgs":"{\"__agentic_workspace\":true}","templateRepoUrl":"file:///usr/local/monospace/templates/public/blank-web","workstationAccessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiZmlyZWJhc2Utc2ltcGxlLTE3NjE4NjExMDk0MTMuY2x1c3Rlci1raXphbHJ6ZzM1aHo2dTRpN3BndXdndDZzcy5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3NjE5MzAxODMsImV4cCI6MTc2MjAxNjU4M30.nloj6MYc6V1q45c-QfjWyu2VAyACbFn75Nr6o6x83fu2N1HCyx91gonyptjynZaQ4CPRsN1iVZYPUtY1e4yV4wdxSPbmUf7DqvtSryj10HA0Tb_ETbbQvTfMlH0mWnB6NNzv3kJ8bBqnS1h0s-m6rAz_6x1yg77mGXuXGqAHTRRwzrYrzbBhppdf_toKrFJb66sXAvBEfBHdM3G0gy7JDsPDSkcld0uGbEz4Vax6b4Z4VHeVTsG4MeK1E-R3Jw5ohxQDDrxmCVEev37ywAZWd6oQnO1UnBM5YT3ztZOsEYGs0DNW3GHD1xc4ylWqzhftkPSZpU4guhCTeW6e6mgfQA"}
+[debug] [2025-10-31T17:03:03.813Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-31T17:03:03.814Z] > authorizing via signed-in user (ibrashi@etqananalysis.com)
+[debug] [2025-10-31T17:03:03.814Z] [iam] checking project etqan-final for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-10-31T17:03:03.815Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:03.815Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:03.815Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/etqan-final:testIamPermissions [none]
+[debug] [2025-10-31T17:03:03.816Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/etqan-final:testIamPermissions x-goog-quota-user=projects/etqan-final
+[debug] [2025-10-31T17:03:03.816Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etqan-final:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-10-31T17:03:04.667Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/etqan-final:testIamPermissions 200
+[debug] [2025-10-31T17:03:04.667Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/etqan-final:testIamPermissions {}
+[debug] [2025-10-31T17:03:04.667Z] [iam] error while checking permissions, command may fail: Authorization failed. This account is missing the following required permissions on project etqan-final:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2025-10-31T17:03:04.668Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:04.669Z] Checked if tokens are valid: true, expires at: 1761933769022
+[debug] [2025-10-31T17:03:04.669Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/etqan-final [none]
+[debug] [2025-10-31T17:03:05.091Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/etqan-final 403
+[debug] [2025-10-31T17:03:05.091Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/etqan-final {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-10-31T17:03:05.093Z] Request to https://firebase.googleapis.com/v1beta1/projects/etqan-final had HTTP Error: 403, The caller does not have permission
+[debug] [2025-10-31T17:03:05.119Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/etqan-final had HTTP Error: 403, The caller does not have permission
+    at responseToError (/home/user/.global_modules/lib/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/home/user/.global_modules/lib/node_modules/firebase-tools/lib/apiv2.js:322:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project etqan-final. Please make sure the project exists and your account has permission to access it.

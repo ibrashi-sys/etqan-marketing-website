@@ -1,14 +1,330 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إتقان: أبحاث المصانع والتسويق الدولي</title>
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font (Tailwind default) but ensure good Arabic font fallback --><style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            background-color: #f8f8fc; /* Light background */
+        }
+        /* Custom styles for aesthetic enhancements */
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
+    </style>
 </head>
-<body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation --><header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo --><a href="#" class="text-2xl font-extrabold text-teal-600 tracking-tight">
+                إتقان <span class="text-gray-800 text-sm font-normal">للأبحاث والتسويق</span>
+            </a>
+            <!-- Navigation Links (Hidden on mobile) --><nav class="hidden md:flex space-x-8 space-x-reverse">
+                <a href="#features" class="text-gray-600 hover:text-teal-600 transition duration-150 font-medium">الخدمات الأساسية</a>
+                <a href="#contact" class="text-gray-600 hover:text-teal-600 transition duration-150 font-medium">تواصل معنا</a>
+                <a href="#" class="text-teal-600 hover:text-teal-800 transition duration-150 font-semibold border-2 border-teal-600 px-4 py-1.5 rounded-lg">منصة العملاء</a>
+            </nav>
+            <!-- Mobile Menu Button (For display purposes, no JS functionality included) --><button class="md:hidden text-gray-600 hover:text-teal-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Focused on Industrial Research & Global Marketing) --><section class="py-16 md:py-24 text-center bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <span class="text-teal-600 font-semibold uppercase text-sm mb-3 block">منشآتك قوة، إتقان هو البنّاء.</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                ريادة التصنيع تبدأ بالتحليل العميق <span class="text-teal-600">هنا إتقان</span>
+            </h1>
+            <p class="text-xl text-gray-500 mb-10 max-w-2xl mx-auto">
+                 شريكك الاستراتيجي للنمو الصناعي، نقدم تحليلات معمقة للمصانع، لتمكينك من تسويق منتجاتك بكفاءة عالية، داخلياً واختراق الأسواق العالمية- بنجاح مؤكد.
+            </p>
+            
+            <!-- Call to Action Button --><div class="flex flex-col sm:flex-row justify-center space-x-4 space-x-reverse">
+                <a href="#" class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transform transition duration-300 hover:scale-105 mb-4 sm:mb-0">
+                    ابدأ تحليل منشأتك فوراً
+                </a>
+                <a href="#contact" class="bg-white text-teal-600 border border-teal-600 font-bold py-3 px-8 rounded-xl shadow-md transform transition duration-300 hover:bg-teal-50">
+                    احجز استشارة مجانية للتوسع العالمي
+                </a>
+            </div>
+
+            <!-- Dashboard Screenshot --><div class="mt-16">
+                <img src="http://googleusercontent.com/image_generation_content/0" alt="لوحة تحكم منصة إتقان لتحليل بيانات المصانع والأداء التسويقي" class="w-full h-auto rounded-2xl shadow-xl border-4 border-gray-100 object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section (Now Industrial Focus) --><section id="features" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-extrabold mb-4">ثلاثة أعمدة لـ إتقان: كفاءة، تسويق، ريادة</h2>
+            <p class="text-xl text-gray-500 mb-12 max-w-3xl mx-auto">
+                نحول تحديات الإنتاج والتسويق إلى فرص نمو مضمونة. خدماتنا مصممة خصيصاً للمصانع والشركات الصناعية الطموحة.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                
+                <!-- Feature 1: Production Efficiency (OEE) --><div class="feature-card bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="text-teal-600 mb-4 inline-block p-3 rounded-full bg-teal-100">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v14L9 19zm0 0l-4-2.5V8.5L9 11v8zm0 0v-8M5 8.5l4 2.5m12-8L9 3m0 8l4-2.5"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">تحليل كفاءة المصانع (OEE)</h3>
+                    <p class="text-gray-500">
+                        بيانات دقيقة عن خطوط الإنتاج، سلاسل الإمداد، والتكاليف التشغيلية. نحدد نقاط الهدر ونرفع كفاءة منشآتك إلى أقصى حد ممكن.
+                    </p>
+                </div>
+
+                <!-- Feature 2: International Marketing --><div class="feature-card bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="text-amber-500 mb-4 inline-block p-3 rounded-full bg-amber-100">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 0117.228 12c-2.42 1.546-5.41 2.22-8.228 1.95M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">بوابتك لاختراق الأسواق الدولية</h3>
+                    <p class="text-gray-500">
+                        استراتيجيات تسويق موجهة بالذكاء الاصطناعي لاختيار الأسواق الخارجية الأنسب، وتصميم حملات تلائم المتطلبات الجمركية والثقافية.
+                    </p>
+                </div>
+
+                <!-- Feature 3: Integrated Sales & Research --><div class="feature-card bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="text-rose-600 mb-4 inline-block p-3 rounded-full bg-rose-100">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.292"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">رؤى تسويقية داخلية وخارجية</h3>
+                    <p class="text-gray-500">
+                        منصة موحدة تجمع نتائج أبحاث الإنتاج برؤى فرق المبيعات المحلية والعالمية، لضمان استراتيجية مبيعات متكاملة ومحكمة وموحدة الأهداف.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Final CTA Section (Industrial/Global Focus) --><section id="contact" class="py-16 md:py-24 bg-gray-800 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:grid md:grid-cols-2 md:gap-12 items-center text-right">
+                <!-- Text Content --><div class="text-center md:text-right">
+                    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">تأمين النمو الصناعي والوصول العالمي.</h2>
+                    <p class="text-xl mb-6 opacity-90">
+                        لا تكتفِ بالسوق المحلي. املأ النموذج الآن لمعرفة كيف يمكننا إتقان تسويق منتجاتك في أهم الأسواق العالمية وأكثرها ربحية.
+                    </p>
+                    <p class="mt-4 text-sm opacity-80">
+                        فريقنا متخصص في تحديات التصنيع والتجارة الدولية.
+                    </p>
+                </div>
+
+                <!-- Contact Form (Lead Collection) --><div class="bg-gray-700 p-8 rounded-xl shadow-2xl mt-12 md:mt-0">
+                    <h3 class="text-2xl font-bold mb-6 text-teal-400">احجز استشارتك المجانية</h3>
+                    
+                    <form id="contactForm" class="mt-8 text-right space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-1">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-600 border border-gray-600 rounded-lg text-white focus:ring-teal-500 focus:border-teal-500 placeholder-gray-400" placeholder="أدخل اسمك">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-300 mb-1">اسم المصنع / الشركة</label>
+                            <input type="text" id="company" name="company" required class="w-full px-4 py-3 bg-gray-600 border border-gray-600 rounded-lg text-white focus:ring-teal-500 focus:border-teal-500 placeholder-gray-400" placeholder="مثل: مصنع الأمل للصناعات المعدنية">
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-300 mb-1">البريد الإلكتروني</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-600 border border-gray-600 rounded-lg text-white focus:ring-teal-500 focus:border-teal-500 placeholder-gray-400" placeholder="name@company.com">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-300 mb-1">رقم الهاتف (مفتاح الدولة)</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 bg-gray-600 border border-gray-600 rounded-lg text-white focus:ring-teal-500 focus:border-teal-500 placeholder-gray-400" placeholder="+966 50 123 4567">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-1">رسالتك / الوصف المختصر</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 bg-gray-600 border border-gray-600 rounded-lg text-white focus:ring-teal-500 focus:border-teal-500 placeholder-gray-400" placeholder="صف نوع منتجاتك وتحدياتك الرئيسية للتوسع العالمي"></textarea>
+                        </div>
+                        
+                        <!-- The button now has an ID and is disabled by default -->
+                        <button type="submit" id="submitButton" disabled class="w-full bg-teal-500 text-white font-bold py-3 rounded-lg text-lg transition duration-300 shadow-lg opacity-50 cursor-not-allowed">
+                            جاري الإعداد...
+                        </button>
+                    </form>
+
+                    <!-- Message Box -->
+                    <div id="messageBox" class="mt-4 p-3 rounded-lg text-center hidden"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer --><footer class="py-12 bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 إتقان لأبحاث المصانع والتسويق. جميع الحقوق محفوظة.</p>
+            <div class="mt-4 space-x-4 space-x-reverse text-sm">
+                <a href="#" class="hover:text-white transition duration-150">سياسة الخصوصية</a>
+                <span class="text-gray-600">|</span>
+                <a href="#" class="hover:text-white transition duration-150">شروط الاستخدام</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Firebase Scripts and Logic --><script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, onAuthStateChanged, setPersistence, browserSessionPersistence } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, collection, addDoc, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // Enable Firestore Debug Logging
+        setLogLevel('debug');
+
+        // ------------------------------------------------
+        // 1. Firebase Configuration & Setup
+        // ------------------------------------------------
+        
+        // *****************************************************************************************
+        // *** هام جداً: لإنجاح عمل الموقع خارج بيئة العمل هذه، يجب تغيير المتغيرات أدناه ***
+        // *** استبدل هذا الكود بكود إعدادات Firebase الخاص بمشروعك الحقيقي ***
+        // *****************************************************************************************
+        const MY_FIREBASE_CONFIG = {
+          // قم بوضع إعدادات مشروعك هنا (apiKey, authDomain, projectId, storageBucket, messagingSenderId, appId)
+          // مثال:
+          // apiKey: "AIzaSy_...", 
+          // authDomain: "your-project.firebaseapp.com",
+          // projectId: "your-project-id",
+        };
+
+        // متغير لتحديد هوية التطبيق (يمكن أن يكون أي اسم مميز لموقعك)
+        const MY_APP_ID = "itqan-marketing-website"; 
+        
+        let app, db, auth;
+        let userId = 'loading';
+        let isAuthReady = false;
+
+        const firebaseConfig = MY_FIREBASE_CONFIG.projectId ? MY_FIREBASE_CONFIG : null;
+        const appId = MY_APP_ID;
+
+        // ** ملاحظة: تم إزالة متغيّرات بيئة العمل الخاصة (مثل __initial_auth_token) **
+        // ** سيقوم الكود الآن بتسجيل الدخول كزائر مجهول (signInAnonymously) بعد إضافة الإعدادات **
+
+        if (firebaseConfig) {
+            app = initializeApp(firebaseConfig);
+            db = getFirestore(app);
+            auth = getAuth(app);
+            
+            // Set up Authentication
+            setPersistence(auth, browserSessionPersistence).then(() => {
+                // نستخدم تسجيل الدخول المجهول كخطوة أمان وضرورية لـ Firestore
+                signInAnonymously(auth).catch(error => {
+                    console.error("Error signing in anonymously:", error);
+                });
+            });
+
+            // Listen for Auth State Changes
+            onAuthStateChanged(auth, (user) => {
+                const submitButton = document.getElementById('submitButton'); 
+                
+                if (user) {
+                    userId = user.uid;
+                } else {
+                    // Fallback UUID 
+                    userId = crypto.randomUUID(); 
+                }
+                isAuthReady = true;
+                console.log(`Auth Ready. User ID: ${userId}`);
+
+                // Enable button and update text only when auth is ready
+                if (submitButton) {
+                    submitButton.removeAttribute('disabled');
+                    submitButton.classList.remove('opacity-50', 'cursor-not-allowed'); 
+                    submitButton.classList.add('hover:bg-teal-600');
+                    submitButton.textContent = 'إرسال الطلب الآن';
+                }
+            });
+
+        } else {
+            // رسالة تنبيه واضحة إذا لم يتم إدخال إعدادات Firebase
+            console.error("Firebase configuration is missing! Please update MY_FIREBASE_CONFIG to enable the contact form.");
+            showMessage('فشل الإعداد. يرجى إدخال إعدادات Firebase الخاصة بك في الكود.', 'error');
+        }
+
+        // ------------------------------------------------
+        // 2. UI Utility Functions
+        // ------------------------------------------------
+
+        function showMessage(message, type = 'success') {
+            const messageBox = document.getElementById('messageBox');
+            const submitButton = document.getElementById('submitButton');
+
+            if (messageBox) {
+                messageBox.textContent = message;
+                messageBox.className = `mt-4 p-3 rounded-lg text-center ${type === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`;
+                messageBox.classList.remove('hidden');
+                
+                // إضافة مؤقت لإخفاء الرسالة
+                setTimeout(() => {
+                    messageBox.classList.add('hidden');
+                }, 5000);
+            }
+            
+            // في حالة الخطأ، نعيد الزر إلى حالة الإعداد
+            if (type === 'error' && submitButton) {
+                 submitButton.setAttribute('disabled', 'true');
+                 submitButton.classList.add('opacity-50', 'cursor-not-allowed');
+                 submitButton.classList.remove('hover:bg-teal-600');
+                 submitButton.textContent = 'فشل الإعداد...';
+            }
+        }
+
+        // ------------------------------------------------
+        // 3. Form Submission Logic
+        // ------------------------------------------------
+
+        async function submitLead(e) {
+            e.preventDefault();
+            
+            if (!isAuthReady) {
+                showMessage('النظام غير جاهز بعد، انتظر قليلاً وحاول مرة أخرى.', 'error');
+                return;
+            }
+
+            const form = e.target;
+            const data = new FormData(form);
+            const leadData = {
+                name: data.get('name'),
+                company: data.get('company'),
+                email: data.get('email'),
+                phone: data.get('phone'),
+                message: data.get('message'),
+                timestamp: new Date()
+            };
+
+            try {
+                // Path: /artifacts/{appId}/users/{userId}/contact_leads
+                // ملاحظة: المسار يستخدم MY_APP_ID بدلاً من __app_id
+                const collectionPath = `artifacts/${appId}/users/${userId}/contact_leads`;
+                
+                await addDoc(collection(db, collectionPath), leadData);
+                
+                showMessage('تم استلام طلبك بنجاح! سنتواصل معك قريباً.', 'success');
+                form.reset(); // Clear the form
+            } catch (error) {
+                console.error("Error submitting lead:", error);
+                showMessage(`حدث خطأ أثناء الإرسال. تأكد من تهيئة Firebase وقواعد الأمان: ${error.message}`, 'error');
+            }
+        }
+        
+        // ------------------------------------------------
+        // 4. Attach Event Listener 
+        // ------------------------------------------------
+        
+        window.addEventListener('load', () => {
+            const form = document.getElementById('contactForm');
+            if (form) {
+                form.addEventListener('submit', submitLead);
+            }
+        });
+
+    </script>
+
 </body>
 </html>
